@@ -58,7 +58,7 @@ const About = () => {
           >
             <div className="w-64 h-64 bg-gradient-to-br from-primary via-accent to-secondary animate-gradient rounded-full overflow-hidden shadow-lg">
               <Image
-                src="/profile.png" // Path to the image in the public folder
+                src="portfolio/profile.png" // Path to the image in the public folder
                 alt="Profile Picture"
                 width={256} // Adjust as needed
                 height={256} // Adjust as needed
