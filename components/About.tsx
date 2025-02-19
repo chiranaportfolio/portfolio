@@ -1,6 +1,20 @@
 "use client"
-import Image from "next/image" 
+import Image from "next/image"
 import { motion } from "framer-motion"
+import { Download } from "lucide-react"
+
+const CVDownloadButton = () => {
+  return (
+    <a
+      href="/portfolio/cvchirana2.pdf" // Updated CV file name
+      download="cvchirana2.pdf"
+      className="inline-flex items-center gap-2 px-6 py-3 font-semibold text-white transition-all rounded-lg bg-gradient-to-r from-teal-500 to-rose-500 hover:from-teal-600 hover:to-rose-600 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+    >
+      <Download className="w-5 h-5" />
+      <span>Download CV</span>
+    </a>
+  )
+}
 
 const About = () => {
   return (
@@ -31,6 +45,10 @@ const About = () => {
               problems and deliver innovative solutions. I'm always excited to take on new challenges and push the
               boundaries of what's possible on the web.
             </p>
+            {/* ✅ Download CV Button */}
+            <div className="mt-6">
+              <CVDownloadButton />
+            </div>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 50 }}
@@ -38,9 +56,9 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex justify-center"
           >
-               <div className="w-64 h-64 bg-gradient-to-br from-primary via-accent to-secondary animate-gradient rounded-full overflow-hidden shadow-lg">
+            <div className="w-64 h-64 bg-gradient-to-br from-primary via-accent to-secondary animate-gradient rounded-full overflow-hidden shadow-lg">
               <Image
-                src="/portfolio/profile.png" // Path to the image in the public folder
+                src="/profile.png" // Path to the image in the public folder
                 alt="Profile Picture"
                 width={256} // Adjust as needed
                 height={256} // Adjust as needed
@@ -55,4 +73,3 @@ const About = () => {
 }
 
 export default About
-
