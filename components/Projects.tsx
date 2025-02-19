@@ -7,19 +7,19 @@ const projects = [
   {
     title: "Employee Management System",
     description: "A web-based Employee Management System built with React, Node.js, and MySQL. This application allows companies to efficiently manage employee records, departments, and positions. It features CRUD operations, a user-friendly dashboard, and a secure admin login for managing employees and departments with ease.",
-    image: "/employee.png",
+    image: "/portfolio/employee.png",
     link: "#",
   },
   {
     title: "Bank System",
     description: "The Banking Application is a Java program designed to manage basic banking operations.",
-    image: "/bank.jpg",
+    image: "/portfolio/bank.jpg",
     link: "#",
   },
   {
     title: "Portfolio Website",
     description: "A modern and responsive portfolio website built using Next.js and Tailwind CSS. This project showcases personal details, projects, education, and contact information with smooth animations using Framer Motion. It is optimized for fast loading, SEO-friendly, and fully responsive on all devices.",
-    image: "/myportfoliopic.png",
+    image: "/portfolio/myportfoliopic.png",
     link: "#",
   },
 ]
