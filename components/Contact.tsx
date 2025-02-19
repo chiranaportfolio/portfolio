@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative py-20 bg-[url('/contact-bg.jpg')] bg-cover bg-center bg-no-repeat"
+      className="relative py-20 bg-[url('/portfolio/contact-bg.jpg')] bg-cover bg-center bg-no-repeat"
     >
       {/* Overlay for better readability */}
       <div className="absolute inset-0 bg-black/50"></div>
