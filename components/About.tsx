@@ -6,7 +6,7 @@ import { Download } from "lucide-react"
 const CVDownloadButton = () => {
   return (
     <a
-      href="/portfolio/cvchirana2.pdf" // Updated CV file name
+      href="/cvchirana2.pdf" // Updated CV file name
       download="cvchirana2.pdf"
       className="inline-flex items-center gap-2 px-6 py-3 font-semibold text-white transition-all rounded-lg bg-gradient-to-r from-teal-500 to-rose-500 hover:from-teal-600 hover:to-rose-600 hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 focus:ring-offset-gray-900"
     >
