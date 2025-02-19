@@ -41,7 +41,7 @@ const Hero = () => {
     <section
       id="hero"
       className="min-h-screen flex items-center justify-center 
-                 bg-[url('/hero-bg.jpg')] bg-cover bg-center bg-no-repeat relative"
+                 bg-[url('/portfolio/hero-bg.jpg')] bg-cover bg-center bg-no-repeat relative"
     >
       <div className="absolute inset-0 bg-black/50"></div> {/* Dark overlay */}
       
